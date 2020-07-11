@@ -1,7 +1,7 @@
 # deluge-influx
 A simple python script to fetch metadeta from Deluge Web API and log it into an InfluxDB database.
 
-You need to run this periodically using somethin like Cron.
+You need to run this periodically using something like Cron.
 
 # Usage
 - Create a `deluge` database in your InfluxDB Server.
@@ -10,7 +10,7 @@ You need to run this periodically using somethin like Cron.
 ```
 pip install -r requirements.txt
 python deluge-influx.py
-```
+```periodically
 
 # Grafana
 ## Upload rate over time by torrent
