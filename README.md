@@ -10,7 +10,7 @@ You need to run this periodically using something like Cron.
 ```
 pip install -r requirements.txt
 python deluge-influx.py
-```periodically
+```
 
 # Grafana
 ## Upload rate over time by torrent
